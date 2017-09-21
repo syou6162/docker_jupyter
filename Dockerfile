@@ -18,4 +18,5 @@ RUN pip install \
     scikit-learn \
     matplotlib \
     pandas \
-    jupyter
+    jupyter \
+    kaggle-cli
