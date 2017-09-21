@@ -5,5 +5,5 @@
 こんな感じで使ってください。
 
 ```
-docker run --name "jupyter" --rm -it -p 8889:8888 -v ~/Dropbox/jupyter_notebooks/:/tmp python_test jupyter notebook --allow-root --ip=0.0.0.0 --NotebookApp.token='' --notebook-dir='/tmp/'
+docker run --name "jupyter" --rm -it -p 8889:8888 -v ~/Dropbox/jupyter_notebooks/:/tmp yasuhisa/jupyter jupyter notebook --allow-root --ip=0.0.0.0 --NotebookApp.token='' --notebook-dir='/tmp/'
 ```
