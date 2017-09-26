@@ -20,3 +20,4 @@ RUN pip install \
     pandas \
     jupyter \
     kaggle-cli \
+    keras
