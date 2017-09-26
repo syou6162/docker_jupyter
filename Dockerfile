@@ -20,4 +20,5 @@ RUN pip install \
     pandas \
     jupyter \
     kaggle-cli \
+    tensorflow \
     keras
