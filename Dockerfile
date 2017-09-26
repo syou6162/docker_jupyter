@@ -19,4 +19,4 @@ RUN pip install \
     matplotlib \
     pandas \
     jupyter \
-    kaggle-cli
+    kaggle-cli \
