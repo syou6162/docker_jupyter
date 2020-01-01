@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.8.1-slim
 MAINTAINER Yasuhisa Yoshida <syou6162@gmail.com>
 
 RUN apt-get -yq update && apt-get install -yq tk-dev git libpq-dev
